@@ -130,7 +130,7 @@ footer{
 .content-wrap{
     position: absolute;
     padding: 0 40px;
-    z-index: 120;
+    z-index: 100;
     text-align: center;
     width: 100%;
     top: 139px;
