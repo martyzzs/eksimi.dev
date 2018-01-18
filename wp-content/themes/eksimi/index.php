@@ -9,6 +9,24 @@
 
 <?php get_header(); ?>
 
-<h1>Preview!</h1>
+
+
+    <?php
+        if( have_posts() ):
+
+            while( have_posts() ):  the_post(); ?>
+
+                <div class="content-wrap row">
+                    <div class="col-md-12 inner-wrap">
+                        <?php the_content(); ?>
+                    </div>
+                </div>
+
+         <?php   endwhile;
+
+        endif;
+    ?>
+
+<?php masterslider(1); ?>
 
 <?php get_footer(); ?>

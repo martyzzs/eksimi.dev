@@ -1,0 +1,146 @@
+html,body{
+    font-family: 'Lato', sans-serif;
+    font-size:14pt;
+    background-color: #cf6766;
+    color:#fff
+}
+
+header{
+    padding:10px;
+}
+
+ul{
+    list-style: none;
+    margin:0;
+}
+
+.title{
+    font-family: 'Merriweather', serif;
+    font-size:21pt;
+}
+
+a{
+    color:#fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#30415D;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+
+    cursor: pointer;
+    color: #031424;
+}
+
+.language-drop{
+    display:none;
+    position: absolute;
+    top: 0px;
+    background-color: #8eaebd;
+    left: 50px;
+    z-index:5;
+}
+
+.language-drop ul{
+    padding:5px 10px;
+    font-size:10pt;
+}
+
+.language-switcher{
+    padding-left: 25px;
+}
+
+.language-switcher .container:hover .language-drop{
+    display: block;
+}
+
+.main-menu{
+    padding: 10px 10px;
+    margin:0;
+}
+
+.main-menu ul{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.main-menu li{
+    display:inline-block;
+    padding:0 10px;
+}
+
+.logo{
+    height:75px
+}
+.menu-wrap{
+    padding-top: 10px;
+}
+.logo img{
+    max-height: 100%;
+}
+
+.social-ico{
+    width:75px;
+    display:inline;
+}
+
+.social-ico img{
+    max-width:100%;
+}
+
+footer .social, footer .contacts, footer .info{
+    padding-top:20px;
+    font-size:12pt;
+}
+
+footer .title{
+    font-size:16pt;
+}
+
+footer{
+    padding-bottom: 30px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.content-wrap{
+    position: absolute;
+    padding: 0 40px;
+    z-index: 120;
+    text-align: center;
+    width: 100%;
+    top: 139px;
+    height: 500px;
+    left: 15px;
+    background-color: rgba(142,174,189,.5);
+}
+
+.content-wrap .inner-wrap{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
