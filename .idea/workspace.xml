@@ -14,11 +14,21 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            <state relative-caret-position="340">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="44" />
               <folding>
                 <element signature="e#6#101#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact-page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/contact-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" column="91" lean-forward="false" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -35,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eksimi.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="eksimi.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/css/eksimi.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="126" column="23" lean-forward="true" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+            <state relative-caret-position="154">
+              <caret line="154" column="38" lean-forward="false" selection-start-line="154" selection-start-column="38" selection-end-line="154" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -48,8 +58,8 @@
       <file leaf-file-name="eksimi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/js/eksimi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+            <state relative-caret-position="102">
+              <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -87,7 +97,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/eksimi/css/eksimiStylesheet.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/eksimi/js/script.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/posts-in-page/posts_loop_template.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/eksimi/contact-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eksimi/wp-bootstrap-navwalker.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eksimi/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eksimi/header.php" />
@@ -95,6 +104,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/eksimi/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/eksimi/js/eksimi.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/eksimi/css/eksimi.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/eksimi/contact-page.php" />
       </list>
     </option>
   </component>
@@ -153,22 +163,6 @@
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="eksimi" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="eksimi.dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eksimi.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="eksimi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="eksimi.dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eksimi.dev" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="eksimi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -208,11 +202,14 @@
       <workItem from="1513488061217" duration="18764000" />
       <workItem from="1513510629554" duration="16092000" />
       <workItem from="1516273631394" duration="30000" />
+      <workItem from="1516297038200" duration="2149000" />
+      <workItem from="1516303739953" duration="1435000" />
+      <workItem from="1516358929613" duration="11830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55354000" />
+    <option name="totallyTimeSpent" value="70768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -250,6 +247,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+          <folding>
+            <element signature="e#6#101#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/js/eksimi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/css/eksimi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="126" column="23" lean-forward="true" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -326,7 +349,7 @@
         <state relative-caret-position="68">
           <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
-            <element signature="e#6#101#0#PHP" expanded="true" />
+            <element signature="e#6#101#0#PHP" expanded="false" />
             <marker date="1513520023896" expanded="true" signature="1343:1428" ph="..." />
             <marker date="1513520023896" expanded="true" signature="1537:1621" ph="..." />
             <marker date="1513520023896" expanded="true" signature="1730:2099" ph="..." />
@@ -406,7 +429,7 @@
         <state relative-caret-position="136">
           <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
-            <element signature="e#6#101#0#PHP" expanded="true" />
+            <element signature="e#6#101#0#PHP" expanded="false" />
             <marker date="1513520023896" expanded="true" signature="1343:1428" ph="..." />
             <marker date="1513520023896" expanded="true" signature="1537:1621" ph="..." />
             <marker date="1513520023896" expanded="true" signature="1730:2099" ph="..." />
@@ -478,20 +501,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/contact-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="32" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="43" column="67" lean-forward="false" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
           <folding>
-            <element signature="e#6#101#0#PHP" expanded="true" />
+            <element signature="e#6#101#0#PHP" expanded="false" />
             <marker date="1513520023896" expanded="true" signature="1343:1428" ph="..." />
             <marker date="1513520023896" expanded="true" signature="1537:1621" ph="..." />
             <marker date="1513520023896" expanded="true" signature="1730:2099" ph="..." />
@@ -549,18 +564,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/master-slider/public/assets/js/masterslider.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/master-slider/admin/views/slider-panel/images/pro-features/admin/layers.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/js/eksimi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/header.php">
@@ -575,26 +605,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        <state relative-caret-position="340">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="44" />
           <folding>
             <element signature="e#6#101#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/js/eksimi.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/css/eksimi.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        <state relative-caret-position="154">
+          <caret line="154" column="38" lean-forward="false" selection-start-line="154" selection-start-column="38" selection-end-line="154" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/css/eksimi.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/eksimi/contact-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="126" column="23" lean-forward="true" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+        <state relative-caret-position="238">
+          <caret line="19" column="91" lean-forward="false" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
           <folding />
         </state>
       </provider>
